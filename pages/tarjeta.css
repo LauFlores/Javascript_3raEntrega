@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#nombre-tarjeta, #numero-tarjeta {
+    width: 300px;
+}
+
+#vencimiento {
+    width: 50%;
+}
+
+#seguridad {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#seguridad input {
+    width: 150px;
+}
+
+#vencimiento-seguridad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
+#vencimiento input {
+    width: 45px;
+}
+
+button {
+    width: 300px;
+}

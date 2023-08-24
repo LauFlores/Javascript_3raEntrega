@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tarjeta.css">
+    <title>Procesar pago con tarjeta</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="nombre-tarjeta">Nombre del titular de la tarjeta</label>
+            <input type="text" name="nombre-tarjeta" id="nombre-tarjeta">
+            <label for="numero-tarjeta">Número de la tarjeta</label>
+            <input type="number" name="numero-tarjeta" id="numero-tarjeta">
+            <div id="vencimiento-seguridad">
+                <div id="vencimiento">
+                    <label for="vencimiento-tarjeta">Vencimiento (MM/YY)</label>
+                    <div id="vencimiento-fecha">
+                        <input type="number" name="vencimiento-tarjeta">
+                        <input type="number" name="vencimiento-tarjeta">
+                    </div>
+                </div>
+                <div id="seguridad">
+                    <label for="codigo-tarjeta">CVC</label>
+                    <input type="number" name="codigo-tarjeta">
+                </div>
+            </div>
+            <button type="button">Confirmar</button>
+        </form>
+    </div>
+
+</body>
+</html>
